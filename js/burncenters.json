@@ -1,0 +1,673 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "Name": "Providence Alaska Medical Center",
+            "X": "-149.818889",
+            "Y": "61.188333"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-149.818889,
+                61.188333
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Arkansas Children's Hospital",
+            "X": "-92.29151",
+            "Y": "34.74327"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-92.29151,
+                34.74327
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "UC Irvine Medical Center",
+            "X": "-117.88857",
+            "Y": "33.78781"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-117.88857,
+                33.78781
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of California Davis",
+            "X": "-121.75",
+            "Y": "38.54"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-121.75,
+                38.54
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "San Francisco General Hospital",
+            "X": "-122.405",
+            "Y": "37.755556"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-122.405,
+                37.755556
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Colorado Hospital",
+            "X": "-104.8414",
+            "Y": "39.7423"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-104.8414,
+                39.7423
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Hartford Hospital",
+            "X": "-72.6811",
+            "Y": "41.7547"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-72.6811,
+                41.7547
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Washington Hospital Center",
+            "X": "-77.015",
+            "Y": "38.93"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.015,
+                38.93
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Orlando Regional Medical Center",
+            "X": "-81.37818",
+            "Y": "28.526049"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.37818,
+                28.526049
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Tampa General Hospital",
+            "X": "-82.45869",
+            "Y": "27.938296"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.45869,
+                27.938296
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Florida",
+            "X": "-82.34944",
+            "Y": "29.64833"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-82.34944,
+                29.64833
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Miami",
+            "X": "-80.279267",
+            "Y": "25.721644"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.279267,
+                25.721644
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Wishard Memorial Hospital",
+            "X": "-86.1775",
+            "Y": "39.779444"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-86.1775,
+                39.779444
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "St. Joseph Hospital (Fort Wayne Indiana)",
+            "X": "-85.149167",
+            "Y": "41.077861"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-85.149167,
+                41.077861
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Louisiana State University Health Sciences Center Shreveport",
+            "X": "-93.761894",
+            "Y": "32.481014"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-93.761894,
+                32.481014
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Boston Medical Center",
+            "X": "-71.0735",
+            "Y": "42.3349"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-71.0735,
+                42.3349
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Children's Hospital of Michigan",
+            "X": "-83.05471",
+            "Y": "42.35174"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.05471,
+                42.35174
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Detroit Receiving Hospital",
+            "X": "-83.05431",
+            "Y": "42.35366"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.05431,
+                42.35366
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Hurley Medical Center",
+            "X": "-83.7046",
+            "Y": "43.02202"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.7046,
+                43.02202
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "St. Mary's of Michigan Medical Center",
+            "X": "-83.9385",
+            "Y": "43.4243"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-83.9385,
+                43.4243
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Hennepin County Medical Center",
+            "X": "-93.261944",
+            "Y": "44.9725"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-93.26194,
+                44.9725
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Regions Hospital",
+            "X": "-93.095322",
+            "Y": "44.95535"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-93.09532,
+                44.95535
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Children's Mercy Hospital",
+            "X": "-94.58",
+            "Y": "39.085"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-94.58,
+                39.085
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Barnes-Jewish Hospital",
+            "X": "-90.2643",
+            "Y": "38.6359"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-90.2643,
+                38.6359
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "St. Louis Children's Hospital",
+            "X": "-90.2651",
+            "Y": "38.6375"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-90.2651,
+                38.6375
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University Medical Center of Southern Nevada",
+            "X": "-115.1674",
+            "Y": "36.1596"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-115.1674,
+                36.1596
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Saint Barnabas Medical Center",
+            "X": "-74.3049",
+            "Y": "40.7636"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.3049,
+                40.7636
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Hackensack University Medical Center",
+            "X": "-74.0575",
+            "Y": "40.884167"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.0575,
+                40.884167
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "NewYork?Presbyterian Hospital",
+            "X": "-73.9427",
+            "Y": "40.8413"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.9427,
+                40.8413
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Staten Island University Hospital",
+            "X": "-74.086046",
+            "Y": "40.584528"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-74.086046,
+                40.584528
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Valhalla New York",
+            "X": "-73.803483",
+            "Y": "41.086533"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.803483,
+                41.086533
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Nassau University Medical Center",
+            "X": "-73.554883",
+            "Y": "40.726106"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.554883,
+                40.726106
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Stony Brook University Hospital",
+            "X": "-73.11578",
+            "Y": "40.90969"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.11578,
+                40.90969
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Erie County Medical Center",
+            "X": "-78.831646",
+            "Y": "42.925776"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.831646,
+                42.925776
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Wake Forest University",
+            "X": "-80.277",
+            "Y": "36.135"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.277,
+                36.135
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "MetroHealth",
+            "X": "-81.697778",
+            "Y": "41.461111"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.69778,
+                41.461111
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Miami Valley Hospital",
+            "X": "-84.186",
+            "Y": "39.7448"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-84.186,
+                39.7448
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Legacy Emanuel Medical Center",
+            "X": "-122.671001",
+            "Y": "45.543344"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-122.671001,
+                45.543344
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "St. Christopher's Hospital for Children",
+            "X": "-75.1245",
+            "Y": "40.0066"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.1245,
+                40.0066
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Temple University School of Medicine",
+            "X": "-75.152226",
+            "Y": "40.00475"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-75.152226,
+                40.00475
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Western Pennsylvania Hospital",
+            "X": "-79.946389",
+            "Y": "40.461389"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.946389,
+                40.461389
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Medical University of South Carolina",
+            "X": "-79.950833",
+            "Y": "32.784167"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.950833,
+                32.784167
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Parkland Memorial Hospital",
+            "X": "-96.838333",
+            "Y": "32.811111"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-96.838333,
+                32.811111
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Texas Medical Branch",
+            "X": "-94.7771",
+            "Y": "29.3107"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-94.7771,
+                29.3107
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Fort Sam Houston",
+            "X": "-98.43083",
+            "Y": "29.476255"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-98.43083,
+                29.476255
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "San Antonio Military Medical Center",
+            "X": "-98.415474",
+            "Y": "29.460408"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-98.415474,
+                29.460408
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Utah Hospital",
+            "X": "-111.836667",
+            "Y": "40.771667"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-111.836667,
+                40.771667
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Fletcher Allen Health Care",
+            "X": "-73.194119",
+            "Y": "44.479794"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-73.194119,
+                44.479794
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Eastern Virginia Medical School",
+            "X": "-76.302522",
+            "Y": "36.860556"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-76.302522,
+                36.860556
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Evans-Haynes Burn Center",
+            "X": "-77.428889",
+            "Y": "37.540528"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-77.428889,
+                37.540528
+            ]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Harborview Medical Center",
+            "X": "-122.32435",
+            "Y": "47.60396"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-122.32435,
+                47.60396
+            ]
+        }
+    }]
+}

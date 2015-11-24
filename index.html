@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Burn Central</title>
+        <link rel="shortcut icon" href="img/flame_dark.svg">
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='css/bootstrap.min.css' rel='stylesheet' />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #map {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+            }
+            #flameIcon {
+                color: white;
+                padding: 5px;
+            }
+            #menu {
+                max-width: 400px;
+                top: 10px;
+                left: 10px;
+                background-color: white;
+                box-shadow: 0px 0px 20px #888888;
+            }
+            #menuHeader {
+                padding: 2%;
+                background-color: #3c4e5a;
+                color: white;
+            }
+            #menuBody {
+            }
+            .menuRow {
+                padding: 10px;
+            }
+            #detailsRow {
+                display: none
+            }
+            #destRow {
+                display: none;
+                color: white;
+                background-color: #56b881
+            }
+            #destination {
+                margin-top: 20px;
+                margin-bottom: 20px
+            }
+            #errorRow {
+                display: none;
+                color: white;
+                background-color: #a23336
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Open Sans', sans-serif;
+            }
+            p, div {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+        <div id='menu' class="container" style="position: absolute">
+            <div class="row">
+                <div class='col-md-12'>
+                    <div id="menuHeader" class="row">
+                        <div class="col-md-10 col-sm-10 hidden-xs">
+                            <h4>Burn Central</h4>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <img id="flameIcon" class="center-block refresh" src="img/flame.svg" title="Pst, resfresh here!"/>
+                        </div>
+                    </div>
+                    <div id="menuBody" >
+                        <div id="destRow" class="row">
+                            <h3 id="destination" class="text-center"></h3>
+                        </div>
+                        <div id="errorRow" class="row">
+                            <h2 id="destination" class="text-center">There are no roads where you're going</h2>
+                        </div>
+                        <div id="detailsRow" class="row menuRow">
+                            <div class="col-md-6">
+                                <h4 id="distance" class="text-center"></h4>
+                            </div>
+                            <div class="col-md-6">
+                                <h4 id="time" class="text-center"></h4>
+                            </div>
+                        </div>
+                        <div id="textRow" class="row menuRow">
+                            <h3 class="text-center">Looks like you got burned!
+                            <br />
+                            Better get some help!</h3>
+                        </div>
+                        <div id="buttonRow" class="row menuRow" >
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <div class="btn-group" role="group" aria-label="...">
+                                        <button id="findMe" type="button" class="btn btn-danger">
+                                            Find me a burn center!
+                                        </button>
+                                        <button id="placeLoc" type="button" class="btn btn-danger btn-md">
+                                            <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="buttonRow2" class="row menuRow" style="padding-top: 0px" >
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <button id="heatMap" type="button" class="btn btn-xs btn-link">
+                                        Show Heat Map
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.3/leaflet-heat.js'></script>
+    <script src="js/leaflet.awesome-markers.js"></script>
+    <script src="js/main.js"></script>
+</html>
